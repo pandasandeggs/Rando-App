@@ -1,0 +1,8 @@
+<h1>Edit Activity</h1>
+<%= form_with model: @activity do |form| %>
+  <%= form.text_field :description %><br>
+  <br><br>
+  <%= form.submit %>
+<% end %>
+<br><br>
+<%= button_to "Delete Activity", @activity, :confirm => "Are you sure?", :method => :delete %>

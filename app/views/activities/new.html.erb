@@ -1,0 +1,7 @@
+<h1>Add an Activity</h1>
+<%= form_with model: Activity.new do |form| %>
+  <%= form.text_field :description, placeholder: "Activity Description" %><br>
+  <%= form.text_field :user_id, placeholder: "User ID" %><br>
+  <br><br>
+  <%= form.submit %>
+<% end %>

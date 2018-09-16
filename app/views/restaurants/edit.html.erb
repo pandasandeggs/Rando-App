@@ -1,0 +1,9 @@
+<h1>Edit Restaurant</h1>
+<%= form_with model: @restaurant do |form| %>
+  <%= form.text_field :name %><br>
+  <%= form.text_field :url %><br>
+  <br><br>
+  <%= form.submit %>
+<% end %>
+<br><br>
+<%= button_to "Delete Restaurant", @restaurant, :confirm => "Are you sure?", :method => :delete %>

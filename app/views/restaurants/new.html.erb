@@ -1,0 +1,8 @@
+<h1>Add a Restaurant</h1>
+<%= form_with model: Restaurant.new do |form| %>
+  <%= form.text_field :name, placeholder: "Restaurant Name" %><br>
+  <%= form.text_field :url, placeholder: "Google Maps URL" %><br>
+  <%= form.text_field :user_id, placeholder: "User ID" %><br>
+  <br><br>
+  <%= form.submit %>
+<% end %>

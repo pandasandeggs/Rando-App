@@ -1,0 +1,20 @@
+<h1>Hi Michael!</h1>
+<h3>I'm Rando. I'm here to help!</h3>
+<img src="https://pbs.twimg.com/profile_images/378800000099889392/c47f40d0fb1549ed31443ebef54f31e8_400x400.png" title= "Bark, bark!" height="200" width="200"></img>
+<br>
+<p>How are you?</p>
+<br>
+<div id='container1'>
+  <%=button_to "I'm hungry", restaurants_random_path, mthod:"get", class:"choice_button" %>
+  <br>
+  <%=button_to "I'm bored", activities_random_path, method:"get", class:"choice_button" %>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div id='container2'>
+  <%=button_to('Change My Restaurants', restaurants_path, method:"get", class:"change_restaurant_button") %>
+    <br>
+  <%=button_to 'Change My Activities', activities_path, method:"get", class:"change_activity_button" %>
+</div>

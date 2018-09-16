@@ -1,0 +1,14 @@
+<h1>Try eating here:</h1>
+<h2><%= link_to @restaurant.name, @restaurant.url %></h2>
+
+<img src="https://pbs.twimg.com/profile_images/378800000099889392/c47f40d0fb1549ed31443ebef54f31e8_400x400.png" height="200" width="200"></img>
+<br>
+<br>
+<br>
+<%=button_to "Next Restaurant",restaurants_random_path, method:"get", class:"next_restaurant_button"%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<%= button_to("Home Page", users_path, method:"get", class:"button_style") %>

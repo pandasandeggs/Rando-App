@@ -1,0 +1,10 @@
+<h1>My Activities</h1>
+<%= button_to("Add Activity", 'activities/new', method:"get", class:"button_style" )%>
+<br>
+<%= button_to("Home Page", users_path, method:"get", class:"button_style" )%>
+<br>
+<ol>
+  <% @activities.each do |activity|%>
+    <li><%= link_to activity.description, edit_activity_path(activity) %></li>
+  <%end%>
+</ol>
