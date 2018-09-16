@@ -32,7 +32,6 @@ gem "aws-sdk-s3", require: false
 # gem 'sinatra', '2.0.0.beta2'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
