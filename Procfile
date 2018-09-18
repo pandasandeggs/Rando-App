@@ -1,1 +1,1 @@
-web: sudo rails s 
+web: rails s 
